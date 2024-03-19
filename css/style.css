@@ -1,0 +1,197 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Ojuju:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Angkor:regular');
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts.css/Causten-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts.css/Causten-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts.css/Causten-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts.css/Causten-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts.css/ProximaNova-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SometypeMono-Medium';
+	src: url('../fonts.css/SometypeMono-Medium.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: 'MINIMALIST WRITING';
+	src: url('../fonts.css/MINIMALISTWRITINGRegular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.home {
+	font-family: "Mukta";
+	font-size: larger;
+	color: rgb(7, 147, 42);
+	font-weight: 300;
+	font-style: oblique;
+	text-align: center;
+	text-shadow: -2px -2px 3px rgb(37, 220, 168);
+	line-height: 1.65;
+}
+
+.list {
+	font-family: "Karla";
+	font-size: 24px;
+	color: blue;
+	font-weight: 800;
+	/* font-style: italic; */
+	text-align: right;
+	line-height: 1.25;
+}
+
+.about,
+.up {
+	font-family: "Causten";
+	font-size: 19px;
+	color: blue;
+	font-weight: 100;
+	font-style: italic;
+	text-transform: lowercase;
+	text-align: right;
+	text-shadow: -3px -3px 4px;
+}
+
+* p {
+	font-family: "MINIMALIST WRITING";
+	font-size: 16px;
+	color: rgb(19, 19, 30);
+	/* font-weight: 800; */
+	text-align: left;
+	letter-spacing: 1.01px;
+	line-height: 1.25;
+	white-space: normal;
+	word-spacing: 2px;
+}
+
+.text {
+	font-family: "SometypeMono-Medium";
+	font-size: large;
+	/* font-style: oblique; */
+	color: rgb(74, 132, 17);
+}
+
+.title {
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
+	color: blueviolet;
+	font-weight: 600;
+	font-style: italic;
+	text-decoration: underline double gray;
+	text-align: left;
+	line-height: 2.25;
+}
+
+.foto {
+	font-family: "Angkor", serif;
+	font-size: 18px;
+	color: rgba(17, 162, 229, 0.628);
+	line-height: 1.45;
+	text-decoration: underline;
+	line-height: 2.5;
+}
+
+.foto1 {
+	text-align: center;
+}
+
+.subtitle {
+	font-family: "Karla", serif;
+	font-size: 22px;
+	color: black;
+	font-weight: 700;
+	font-style: initial;
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	text-decoration-color: blue;
+	line-height: 3.25;
+}
+
+h6 {
+	font-family: "Proxima Nova Rg", sans-serif;
+	color: #2b2929;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0px;
+}
+
+.text0 {
+	font-family: "Proxima Nova Rg", sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	color: #2b2929;
+	line-height: 48px;
+	font-weight: 400;
+	line-height: 1.65;
+	text-align: center;
+}
+
+
+.text1 {
+	font-family: "Proxima Nova Rg", sans-serif;
+	font-style: normal;
+	color: #2b2929;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0px;
+}
+
+.text2 {
+	font-family: "Proxima Nova Rg", sans-serif;
+	font-style: normal;
+	color: #2b2929;
+	font-size: 20px;
+	text-align: left;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0px;
+}
