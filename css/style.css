@@ -79,7 +79,7 @@
 	font-size: 24px;
 	color: blue;
 	font-weight: 800;
-	/* font-style: italic; */
+	font-style: italic;
 	text-align: right;
 	line-height: 1.25;
 }
@@ -97,9 +97,9 @@
 }
 
 * p {
-	font-family: "MINIMALIST WRITING";
-	font-size: 16px;
-	color: rgb(19, 19, 30);
+	font-family: "MINIMALIST WRITING", serif;
+	font-size: 18px;
+	color: rgb(195, 12, 245);
 	/* font-weight: 800; */
 	text-align: left;
 	letter-spacing: 1.01px;
