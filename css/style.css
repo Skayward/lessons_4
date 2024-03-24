@@ -1,15 +1,19 @@
 @import url("reset.css");
 
-@import url('https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Mukta:regular,600,700&display=swap");
 
 @import url('https://fonts.googleapis.com/css?family=Angkor:regular');
 
 @font-face {
 	font-family: 'Causten';
 	src: url('../fonts.css/Causten-Bold.woff2') format('woff2');
-	font-weight: bold;
+	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
@@ -49,7 +53,7 @@
 @font-face {
 	font-family: 'SometypeMono-Medium';
 	src: url('../fonts.css/SometypeMono-Medium.woff2') format('woff2');
-	font-weight: normal;
+	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 
@@ -62,12 +66,10 @@
 	font-style: normal;
 }
 
-
 .home {
 	font-family: "Mukta";
-	font-size: larger;
+	font-size: 700;
 	color: rgb(7, 147, 42);
-	font-weight: 300;
 	font-style: oblique;
 	text-align: center;
 	text-shadow: -2px -2px 3px rgb(37, 220, 168);
@@ -100,7 +102,6 @@
 	font-family: "MINIMALIST WRITING", serif;
 	font-size: 18px;
 	color: rgb(195, 12, 245);
-	/* font-weight: 800; */
 	text-align: left;
 	letter-spacing: 1.01px;
 	line-height: 1.25;
@@ -110,8 +111,6 @@
 
 .text {
 	font-family: "SometypeMono-Medium";
-	font-size: large;
-	/* font-style: oblique; */
 	color: rgb(74, 132, 17);
 }
 
@@ -144,7 +143,6 @@
 	font-size: 22px;
 	color: black;
 	font-weight: 700;
-	font-style: initial;
 	text-align: center;
 	text-decoration-line: underline;
 	text-transform: uppercase;
@@ -152,23 +150,21 @@
 	line-height: 3.25;
 }
 
-h6 {
+h6,
+.text0,
+.text1,
+.text2 {
 	font-family: "Proxima Nova Rg", sans-serif;
 	color: #2b2929;
 	font-size: 40px;
 	text-align: center;
 	font-weight: 400;
 	line-height: 48px;
-	letter-spacing: 0px;
 }
 
 .text0 {
 	font-family: "Proxima Nova Rg", sans-serif;
-	font-style: normal;
-	font-size: 40px;
-	color: #2b2929;
 	line-height: 48px;
-	font-weight: 400;
 	line-height: 1.65;
 	text-align: center;
 }
@@ -176,22 +172,16 @@ h6 {
 
 .text1 {
 	font-family: "Proxima Nova Rg", sans-serif;
-	font-style: normal;
-	color: #2b2929;
 	font-size: 16px;
 	text-align: left;
-	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0px;
 }
 
 .text2 {
 	font-family: "Proxima Nova Rg", sans-serif;
-	font-style: normal;
-	color: #2b2929;
 	font-size: 20px;
 	text-align: left;
-	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 0px;
 }
